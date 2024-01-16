@@ -45,7 +45,7 @@ Row Exclusion: Removing rows with pervasive missingness.
 ### Region-wise Distribution:
 - Histograms: Visualizing how different attributes behaved across various regions.
 
-https://github.com/SAKET03/Wildfire-Prediction/blob/main/Images/Region%20Distribution.png
+![Region Distribution] (https://github.com/SAKET03/Wildfire-Prediction/blob/main/Images/Region%20Distribution.png)
 
 ### Principal Component Analysis (PCA):
 - Pattern Recognition: Synthesizing data's information into fewer dimensions to facilitate recognition of inherent patterns.
