@@ -16,6 +16,7 @@ This study demonstrates the value of synergizing Earth observations from spacebo
 
 
 
+
 ## Methodology
 The methodology involves a comprehensive process, including data loading and inspection, data cleaning, handling missing values, univariate analysis, outlier treatment, region-wise distribution analysis, principal component analysis (PCA), and data preparation for training.
 
@@ -44,6 +45,7 @@ Row Exclusion: Removing rows with pervasive missingness.
 ### Region-wise Distribution:
 - Histograms: Visualizing how different attributes behaved across various regions.
 
+https://github.com/SAKET03/Wildfire-Prediction/blob/main/Images/Region%20Distribution.png
 
 ### Principal Component Analysis (PCA):
 - Pattern Recognition: Synthesizing data's information into fewer dimensions to facilitate recognition of inherent patterns.
@@ -65,6 +67,7 @@ Row Exclusion: Removing rows with pervasive missingness.
 ### Model Interface:
 - Gradio-Enabled Model Interface: Developing a model interface using Gradio for users to estimate wildfire areas quickly.
 - Interactive Severity Visualization through Plotly: Hosting an interactive and dynamic plot powered by Plotly for categorizing wildfire severity.
+
 
 
 ## Results
