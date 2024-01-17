@@ -20,7 +20,8 @@ This study demonstrates the value of synergizing Earth observations from spacebo
 ## Methodology
 The methodology involves a comprehensive process, including data loading and inspection, cleaning, handling missing values, univariate analysis, outlier treatment, region-wise distribution analysis, principal component analysis (PCA), and data preparation for training.
 
-![Methodology](https://github.com/SAKET03/Wildfire-Prediction/blob/main/Images/Methodology.png)
+<!-- ![Methodology](https://github.com/SAKET03/Wildfire-Prediction/blob/main/Images/Methodology.png) -->
+![Methodology](Images/Methodology.png)
 
 ### Data Loading and Inspection:
 - Loading Data: Incorporating weather-related time series data from 2005 to 2021 from `dataset1.csv` into a Pandas DataFrame.
@@ -40,27 +41,35 @@ Row Exclusion: Removing rows with pervasive missingness.
 ### Univariate Analysis:
 - Boxplots: Visualizing central tendency, spread, and skewness of various attributes.
 
-![Indices_Distribution](https://github.com/SAKET03/Wildfire-Prediction/blob/main/Images/Distribution%20of%20Indices.png)
+<!-- ![Indices_Distribution](https://github.com/SAKET03/Wildfire-Prediction/blob/main/Images/Distribution%20of%20Indices.png) -->
+![Indices_Distribution](<Images/Distribution of Indices.png>)
 
 ### Outlier Treatment:
 - IQR Method: Utilizing the Interquartile Range (IQR) to discern potential outliers.
 - Visualization: Generating boxplots after outlier treatment for optimized data distributions.
 
-![Before_Removal](https://github.com/SAKET03/Wildfire-Prediction/blob/main/Images/Boxplot%20(Before%20Outlier%20Removal).png)
+<!-- ![Before_Removal](https://github.com/SAKET03/Wildfire-Prediction/blob/main/Images/Boxplot%20(Before%20Outlier%20Removal).png) -->
+![Before_Removal](<Images/Boxplot (Before Outlier Removal).png>)
+
 **After Outlier Removal:**
-![After_Removal](https://github.com/SAKET03/Wildfire-Prediction/blob/main/Images/Boxplot%20(After%20Outlier%20Removal).png)
+<!-- ![After_Removal](https://github.com/SAKET03/Wildfire-Prediction/blob/main/Images/Boxplot%20(After%20Outlier%20Removal).png) -->
+![After_Removal](<Images/Boxplot (After Outlier Removal).png>)
 
 ### Region-wise Distribution:
 - Histograms: Visualizing how different attributes behaved across various regions.
 
-![Region_Distribution](https://github.com/SAKET03/Wildfire-Prediction/blob/main/Images/Region%20Distribution.png)
+<!-- ![Region_Distribution](https://github.com/SAKET03/Wildfire-Prediction/blob/main/Images/Region%20Distribution.png) -->
+![Region_Distribution](<Images/Region Distribution.png>)
 
 ### Principal Component Analysis (PCA):
 - Pattern Recognition: Synthesizing data's information into fewer dimensions to facilitate recognition of inherent patterns.
 - Variance Analysis: Plotting explained variance to determine the significance of each principal component.
 
-![PCA_Components](https://github.com/SAKET03/Wildfire-Prediction/blob/main/Images/PCA%20Bar%20Chart.png)
-![PCA_Distribution](https://github.com/SAKET03/Wildfire-Prediction/blob/main/Images/PCA%20Biplots.png)
+<!-- ![PCA_Components](https://github.com/SAKET03/Wildfire-Prediction/blob/main/Images/PCA%20Bar%20Chart.png)
+![PCA_Distribution](https://github.com/SAKET03/Wildfire-Prediction/blob/main/Images/PCA%20Biplots.png) -->
+
+![PCA_Components](<Images/PCA Bar Chart.png>)
+![PCA_Distribution](<Images/PCA Biplots.png>)
 
 ### Data Preparation for Training:
 - Feature Engineering: Crafting new features or transforming existing ones to enhance the model's ability to capture patterns.
@@ -79,15 +88,18 @@ Row Exclusion: Removing rows with pervasive missingness.
 - Gradio-Enabled Model Interface: Developing a model interface using Gradio for users to estimate wildfire areas quickly.
 - Interactive Severity Visualization through Plotly: Hosting an interactive and dynamic plot powered by Plotly for categorizing wildfire severity.
 
-![Interface](https://github.com/SAKET03/Wildfire-Prediction/blob/main/Images/Interface.png)
-
+<!-- ![Interface](https://github.com/SAKET03/Wildfire-Prediction/blob/main/Images/Interface.png) -->
+![Interface](Images/Interface.png)
 
 
 ## Results
 We employed AutoGluon for an automated machine learning approach to predict wildfire-burned areas using weather and satellite data. Seventeen algorithms, including neural networks and forests, were trained and optimized to minimize RMSE on a validation dataset.
 
-![Accuracy](https://github.com/SAKET03/Wildfire-Prediction/blob/main/Images/Model%20Table.png)
-![Model](https://github.com/SAKET03/Wildfire-Prediction/blob/main/Images/Model.png)
+<!-- ![Accuracy](https://github.com/SAKET03/Wildfire-Prediction/blob/main/Images/Model%20Table.png)
+![Model](https://github.com/SAKET03/Wildfire-Prediction/blob/main/Images/Model.png) -->
+
+![Accuracy](<Images/Model Table.png>)
+![Model](Images/Model.png)
 
 The `WeightedEnsemble_L2 model` excelled, blending top performers for improved accuracy. `CatBoostRegressor` stood out among standalone models with the lowest validation error. Tree-based methods and neural networks generally outperformed k-nearest neighbor regressors.
 
