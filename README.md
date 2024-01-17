@@ -1,7 +1,7 @@
 # Wildfire-Prediction
 
 ## Overview
-Wildfires represent increasingly destructive natural disasters, annually consuming millions of acres of forests and vegetation globally. This project aims to address the challenges in accurately predicting and monitoring wildfires by integrating satellite remote sensing and numerical weather prediction model data.
+Wildfires represent increasingly destructive natural disasters, annually consuming millions of acres of forests and vegetation globally. This project addresses the challenges in accurately predicting and monitoring wildfires by integrating satellite remote sensing and numerical weather prediction model data.
 
 ### Key Features
 Data Integration: Utilizing comprehensive geospatial datasets from the IBM PAIRS platform, incorporating data from NASA, Copernicus, and NOAA sources.
@@ -18,13 +18,13 @@ This study demonstrates the value of synergizing Earth observations from spacebo
 
 
 ## Methodology
-The methodology involves a comprehensive process, including data loading and inspection, data cleaning, handling missing values, univariate analysis, outlier treatment, region-wise distribution analysis, principal component analysis (PCA), and data preparation for training.
+The methodology involves a comprehensive process, including data loading and inspection, cleaning, handling missing values, univariate analysis, outlier treatment, region-wise distribution analysis, principal component analysis (PCA), and data preparation for training.
 
 ![Methodology](https://github.com/SAKET03/Wildfire-Prediction/blob/main/Images/Methodology.png)
 
 ### Data Loading and Inspection:
 - Loading Data: Incorporating weather-related time series data from 2005 to 2021 from `dataset1.csv` into a Pandas DataFrame.
-- Initial Observation: Using methods like `head()` for a snapshot of initial rows and shape for insights into the dataset's size.
+- Initial Observation: Using methods like `head()` for a snapshot of initial rows and shapes for insights into the dataset's size.
 
 ### Data Cleaning:
 - Column Renaming: Ensuring consistency and readability by renaming columns associated with vegetation indices.
